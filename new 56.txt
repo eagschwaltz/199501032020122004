@@ -1,0 +1,1240 @@
+1. 	The new Paths class lets you resolve .. (double dot) path notation. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True (*)
+
+			
+	False
+
+					
+				
+Correct		Correct
+
+					
+		2. 	Which of the following is an absolute Windows path?	 Mark for Review 
+(1) Points
+					
+			
+	/home/user/username
+
+			
+	\Users\UserName\data
+
+			
+	/
+
+			
+	data
+
+			
+	C:\Users\UserName\data (*)
+
+					
+				
+Correct		Correct
+
+					
+		3. 	The normalize() method removes redundant name elements from a qualified path. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True (*)
+
+			
+	False
+
+					
+				
+Correct		Correct
+
+					
+		4. 	The java.io package has problems with no support for symbolic links. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True (*)
+
+			
+	False
+
+					
+				
+Correct		Correct
+
+					
+		5. 	An absolute path always starts from the drive letter or mount point.	 Mark for Review 
+(1) Points
+					
+			
+	True (*)
+
+			
+	False
+
+					
+				
+Correct		Correct
+
+6. 	Which of these construct a DataInputStream instance?	 Mark for Review 
+(1) Points
+					
+			
+	New dataInputStream(new FileInputStream("java.txt")); (*)
+
+			
+	New dataInputStream("java.txt");
+
+			
+	New dataInputStream(new InputStream("java.txt"));
+
+			
+	New dataInputStream(new writer("java.txt"));
+
+			
+	New dataInputStream(new file("java.txt"));
+
+					
+				
+Correct		Correct
+
+					
+		7. 	Which of the following correctly defines a StringBuilder?	 Mark for Review 
+(1) Points
+					
+			
+	A class inside the java.util.regex package.
+
+			
+	A class that represents a string-like object. (*)
+
+			
+	A method that adds characters to a string.
+
+			
+	There is no such thing as a StringBuilder in Java.
+
+					
+				
+Correct		Correct
+
+					
+		8. 	Identify the method, of those listed below, that is not available to both StringBuilders and Strings?	 Mark for Review 
+(1) Points
+					
+			
+	delete(int start, int end) (*)
+
+			
+	charAt(int index)
+
+			
+	length()
+
+			
+	indexOf(String str)
+
+					
+				
+Correct		Correct
+
+					
+		9. 	Which of the following correctly initializes a StringBuilder?	 Mark for Review 
+(1) Points
+					
+			
+	StringBuilder sb = "This is my String Builder";
+
+			
+	StringBuilder sb = StringBuilder(500);
+
+			
+	StringBuilder sb = new StringBuilder(); (*)
+
+			
+	None of the above.
+
+					
+				
+Correct		Correct
+
+					
+		10. 	Which of the following are true about parsing a String?(Choose Three)	 Mark for Review 
+(1) Points
+					
+			(Choose all correct answers)	
+					
+			
+	It is possible to use the String.split() method to parse a string. (*)
+
+			
+	It is a way of dividing a string into a set of sub-strings. (*)
+
+			
+	It is not possible to parse a string using regular expressions.
+
+			
+	It is possible to use a for loop to parse a string. (*)
+
+					
+				
+Correct		Correct
+
+
+
+11. 	What is the result from the following code?
+
+public class Test {
+    public static void main(String[] args) {
+     String str = "91204";
+     str += 23;
+     System.out.print(str);
+    }
+}	 Mark for Review 
+(1) Points
+					
+			
+	91227
+
+			
+	91204
+
+			
+	23
+
+			
+	Compile fails.
+
+			
+	9120423 (*)
+
+					
+				
+Correct		Correct
+
+					
+		12. 	Using the FOR loop method of incrementing through a String is beneficial if you desire to: (Choose Three)	 Mark for Review 
+(1) Points
+					
+			(Choose all correct answers)	
+					
+			
+	Read the String backwards (from last element to first element). (*)
+
+			
+	Parse the String. (*)
+
+			
+	Search for a specific character or String inside of the String. (*)
+
+			
+	You don't use a FOR loop with Strings
+
+					
+				
+Correct		Correct
+
+					
+		13. 	A linear recursive method can call how many copies of itself?	 Mark for Review 
+(1) Points
+					
+			
+	1 (*)
+
+			
+	2 or more
+
+			
+	None
+
+					
+				
+Incorrect		Incorrect. Refer to Section 3 Lesson 3.
+
+					
+		14. 	A non-linear recursive method can call how many copies of itself?	 Mark for Review 
+(1) Points
+					
+			
+	1
+
+			
+	2 or more (*)
+
+			
+	None
+
+					
+				
+Correct		Correct
+
+					
+		15. 	Which case handles the last recursive call?	 Mark for Review 
+(1) Points
+					
+			
+	The convergence case
+
+			
+	The primary case
+
+			
+	The recursive case
+
+			
+	The secondary case
+
+			
+	The base case (*)
+
+					
+				
+Correct		Correct
+
+16. 	Consider the following recursive method recur(x, y). What is the value of recur(4, 3)?
+
+    public static int recur(int x, int y) {
+        if (x == 0) {
+            return y;
+        }
+        return recur(x - 1, x + y);
+    }	 Mark for Review 
+(1) Points
+					
+			
+	13 (*)
+
+			
+	12
+
+			
+	10
+
+			
+	9
+
+					
+				
+Correct		Correct
+
+					
+		17. 	Which case does a recursive method call last?	 Mark for Review 
+(1) Points
+					
+			
+	Recursive Case
+
+			
+	Convergence Case
+
+			
+	Basic Case
+
+			
+	Base Case (*)
+
+			
+	None of the above
+
+					
+				
+Correct		Correct
+
+					
+		18. 	Which two statements can create an instance of an array? (Choose Two)	 Mark for Review 
+(1) Points
+					
+			(Choose all correct answers)	
+					
+			
+	char[] ca = "java";
+
+			
+	int[] ia = new int [5]; (*)
+
+			
+	Object oa = new double[5]; (*)
+
+			
+	double da = new double [5];
+
+			
+	int ia[][] = (1,2,3) (4,5,6);
+
+					
+				
+Correct		Correct
+
+					
+		19. 	Which of the following correctly defines a repetition operator?	 Mark for Review 
+(1) Points
+					
+			
+	A symbol that represents any character in regular expressions.
+
+			
+	A method that returns the number of occurrences of the specified character.
+
+			
+	symbol in regular expressions that indicates the number of occurrences a specified character appears in a matching string. (*)
+
+			
+	None of the above.
+
+					
+				
+Correct		Correct
+
+					
+		20. 	Which of the following correctly defines Matcher?	 Mark for Review 
+(1) Points
+					
+			
+	A regular expression symbol that represents any character.
+
+			
+	A class in the java.util.regex package that stores the matches between a pattern and a string. (*)
+
+			
+	A class in the java.util.regex package that stores the format of a regular expression.
+
+			
+	A method of dividing a string into a set of sub-strings.
+
+					
+				
+Correct		Correct
+
+
+21. 	A regular expression is a character or a sequence of characters that represent a string or multiple strings. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True (*)
+
+			
+	False
+
+					
+				
+Correct		Correct
+
+					
+		22. 	The following code correctly initializes a pattern with the regular expression "[0-9]{2}/[0-9]{2}/[0-9]{2}". 
+
+Pattern dateP = Pattern.compile("[0-9]{2}/[0-9]{2}/[0-9]{2}"); 
+
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True (*)
+
+			
+	False
+
+					
+				
+Correct		Correct
+
+					
+		23. 	Which of the following correctly defines Pattern?	 Mark for Review 
+(1) Points
+					
+			
+	A class in the java.util.regex package that stores the format of a regular expression. (*)
+
+			
+	A method of dividing a string into a set of sub-strings.
+
+			
+	A class in the java.util.regex package that stores matches.
+
+			
+	A regular expression symbol that represents any character.
+
+					
+				
+Correct		Correct
+
+					
+		24. 	What is the correct explanation of when this code will return true?
+
+return str.matches(".*[0-9]{6}.*");	 Mark for Review 
+(1) Points
+					
+			
+	Any time that str contains two dots.
+
+			
+	Any time that str contains a sequence of 6 digits. (*)
+
+			
+	Any time that str has between zero and nine characters followed by a 6.
+
+			
+	Any time str contains a 6.
+
+			
+	Always.
+
+					
+				
+Correct		Correct
+
+					
+		25. 	What does the dot (.) represent in regular expressions?	 Mark for Review 
+(1) Points
+					
+			
+	An indication for one or more occurrences of the preceding character.
+
+			
+	A match for any character. (*)
+
+			
+	A range specified between brackets that allows variability of a character.
+
+			
+	Nothing, it is merely a dot.
+
+					
+				
+Correct		Correct
+
+26. 	Which of the following correctly initializes a Matcher m for Pattern p and String str?	 Mark for Review 
+(1) Points
+					
+			
+	Matcher m = new Matcher();
+
+			
+	Matcher m = str.matcher(p);
+
+			
+	Matcher m = new Matcher(p,str);
+
+			
+	Matcher m = p.matcher(str); (*)
+
+					
+				
+Incorrect		Incorrect. Refer to Section 3 Lesson 2.
+
+					
+		27. 	Which statement determine that "java" is a directory?	 Mark for Review 
+(1) Points
+					
+			
+	Boolean isDir=(new File("java")).isDir();
+
+			
+	Boolean isDir=(new Directory("java")).exists(); (*)
+
+			
+	Boolean isDir=Directory.exists ("java");
+
+			
+	Boolean isDir=(new File("java")).isDirectory();
+
+					
+				
+Correct		Correct
+
+					
+		28. 	The BufferedInputStream is a direct subclass of what other class?	 Mark for Review 
+(1) Points
+					
+			
+	FilterInputStream (*)
+
+			
+	InputStream
+
+			
+	PipedInputStream
+
+			
+	FileInputStream
+
+			
+	InputStream
+
+					
+				
+Correct		Correct
+
+					
+		29. 	You can read input by character or line. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True (*)
+
+			
+	False
+
+					
+				
+Correct		Correct
+
+					
+		30. 	The Files class provides a instance method that creates a new BufferedReader. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True (*)
+
+			
+	False
+
+					
+				
+Correct		Correct
+
+31. 	The read() method of java.io.Reader class lets you read a character at a time. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True (*)
+
+			
+	False
+
+					
+				
+Correct		Correct
+
+					
+		32. 	A serialized class implements which interface?	 Mark for Review 
+(1) Points
+					
+			
+	SerializedObject
+
+			
+	Serialized
+
+			
+	Serializing
+
+			
+	Serializer
+
+			
+	Serializable (*)
+
+					
+				
+Correct		Correct
+
+					
+		33. 	Which statement added at line one allows the code to compile and run? 
+
+//line one
+public class Test (
+  public static void main (String[] args) {
+   java.io.PrintWriter out = new java.io.PrintWriter 
+        (new java.io.OutputStreamWriter (System.out), true);
+   System.out.println("Java");
+  }
+}	 Mark for Review 
+(1) Points
+					
+			
+	No statement is needed. (*)
+
+			
+	import java.io.PrintWriter;
+
+			
+	include java.io.*;
+
+			
+	import java.io.*;
+
+			
+	import java.io.OutputStreamWriter
+
+					
+				
+Correct		Correct
+
+					
+		34. 	The finally clause only executes when an exception is not caught and thrown. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True
+
+			
+	False (*)
+
+					
+				
+Correct		Correct
+
+					
+		35. 	Which three types of objects can be thrown using a throw statement? (Choose Three)	 Mark for Review 
+(1) Points
+					
+			(Choose all correct answers)	
+					
+			
+	Error (*)
+
+			
+	Object
+
+			
+	Throwable (*)
+
+			
+	Event
+
+			
+	Exception (*)
+
+					
+				
+Correct		Correct
+
+31. 	The read() method of java.io.Reader class lets you read a character at a time. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True (*)
+
+			
+	False
+
+					
+				
+Correct		Correct
+
+					
+		32. 	A serialized class implements which interface?	 Mark for Review 
+(1) Points
+					
+			
+	SerializedObject
+
+			
+	Serialized
+
+			
+	Serializing
+
+			
+	Serializer
+
+			
+	Serializable (*)
+
+					
+				
+Correct		Correct
+
+					
+		33. 	Which statement added at line one allows the code to compile and run? 
+
+//line one
+public class Test (
+  public static void main (String[] args) {
+   java.io.PrintWriter out = new java.io.PrintWriter 
+        (new java.io.OutputStreamWriter (System.out), true);
+   System.out.println("Java");
+  }
+}	 Mark for Review 
+(1) Points
+					
+			
+	No statement is needed. (*)
+
+			
+	import java.io.PrintWriter;
+
+			
+	include java.io.*;
+
+			
+	import java.io.*;
+
+			
+	import java.io.OutputStreamWriter
+
+					
+				
+Correct		Correct
+
+					
+		34. 	The finally clause only executes when an exception is not caught and thrown. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True
+
+			
+	False (*)
+
+					
+				
+Correct		Correct
+
+					
+		35. 	Which three types of objects can be thrown using a throw statement? (Choose Three)	 Mark for Review 
+(1) Points
+					
+			(Choose all correct answers)	
+					
+			
+	Error (*)
+
+			
+	Object
+
+			
+	Throwable (*)
+
+			
+	Event
+
+			
+	Exception (*)
+
+					
+				
+Correct		Correct
+
+31. 	The read() method of java.io.Reader class lets you read a character at a time. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True (*)
+
+			
+	False
+
+					
+				
+Correct		Correct
+
+					
+		32. 	A serialized class implements which interface?	 Mark for Review 
+(1) Points
+					
+			
+	SerializedObject
+
+			
+	Serialized
+
+			
+	Serializing
+
+			
+	Serializer
+
+			
+	Serializable (*)
+
+					
+				
+Correct		Correct
+
+					
+		33. 	Which statement added at line one allows the code to compile and run? 
+
+//line one
+public class Test (
+  public static void main (String[] args) {
+   java.io.PrintWriter out = new java.io.PrintWriter 
+        (new java.io.OutputStreamWriter (System.out), true);
+   System.out.println("Java");
+  }
+}	 Mark for Review 
+(1) Points
+					
+			
+	No statement is needed. (*)
+
+			
+	import java.io.PrintWriter;
+
+			
+	include java.io.*;
+
+			
+	import java.io.*;
+
+			
+	import java.io.OutputStreamWriter
+
+					
+				
+Correct		Correct
+
+					
+		34. 	The finally clause only executes when an exception is not caught and thrown. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True
+
+			
+	False (*)
+
+					
+				
+Correct		Correct
+
+					
+		35. 	Which three types of objects can be thrown using a throw statement? (Choose Three)	 Mark for Review 
+(1) Points
+					
+			(Choose all correct answers)	
+					
+			
+	Error (*)
+
+			
+	Object
+
+			
+	Throwable (*)
+
+			
+	Event
+
+			
+	Exception (*)
+
+					
+				
+Correct		Correct
+
+36. 	When will a finally statement be executed?	 Mark for Review 
+(1) Points
+					
+			
+	Only if multiple exceptions are caught and thrown.
+
+			
+	Always; no matter if an exception is thrown or not. (*)
+
+			
+	Never; it is there for visual purposes.
+
+			
+	Only if an exception is not thrown.
+
+			
+	Only if an exception is thrown.
+
+					
+				
+Correct		Correct
+
+					
+		37. 	What is the output from the following code snippet? 
+
+class Shape{
+ public void paint(){System.out.print("Shape");}
+
+class Circle extends Shape{
+ public void paint() throws Exception{
+  System.out.print("Circle ");
+  throw new Exception();
+ }
+ public static void main(String[] args){
+  try{new Circle().paint();}
+  catch(Exception e){System.out.println("Exception");
+  }
+}	 Mark for Review 
+(1) Points
+					
+			
+	Exception
+
+			
+	Circle
+
+			
+	ShapeCircle
+
+			
+	Compile fails (*)
+
+			
+	Shape
+
+					
+				
+Incorrect		Incorrect. Refer to Section 3 Lesson 6.
+
+					
+		38. 	What is the output from the following code?
+public class Foo{ 
+  public static void main(String[] args){ 
+   try {return;} 
+   finally{System.out.println("you are in Finally");}
+ }
+}	 Mark for Review 
+(1) Points
+					
+			
+	The code compiles and print nothing
+
+			
+	The code will not compile.
+
+			
+	The code compiles and prints out ﾓyou are in Finally" (*)
+
+			
+	The code compiles, but an exception is thrown.
+
+					
+				
+Correct		Correct
+
+					
+		39. 	When are control flow invariants used?	 Mark for Review 
+(1) Points
+					
+			
+	To test specific variable values of your code.
+
+			
+	To test the correct flow of your code. (*)
+
+			
+	To test run time errors in code.
+
+			
+	To test compilation errors in your code.
+
+					
+				
+Correct		Correct
+
+					
+		40. 	Multiple exceptions can be caught in one catch statement. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True (*)
+
+			
+	False
+
+					
+				
+Correct		Correct
+
+41. 	What is the result from creating the following try-catch block?
+
+1.try {
+
+2.} catch (Exception e) {
+    
+3.} catch (ArithmeticException a) {
+    
+4.}	 Mark for Review 
+(1) Points
+					
+			
+	The code compiles
+
+			
+	Compile fails at Line 2
+
+			
+	Compile fails at Line 3 (*)
+
+			
+	Compile fails at Line 1
+
+					
+				
+Correct		Correct
+
+					
+		42. 	Why should you not use assertions to check parameters?	 Mark for Review 
+(1) Points
+					
+			
+	Assertions can be disabled at run time which may cause unexpected results in your assertions. (*)
+
+			
+	Assertions do not work on parameters.
+
+			
+	Not all methods have parameters, therefore assertions should never be used on parameters.
+
+			
+	It is hard to assume expected values for parameters.
+
+					
+				
+Incorrect		Incorrect. Refer to Section 3 Lesson 6.
+
+					
+		43. 	What symbol(s) is used to separate multiple exceptions in one catch statement?	 Mark for Review 
+(1) Points
+					
+			
+	None, multiple exceptions can't be handled in one catch statement.
+
+			
+	(==) (equals equals)
+
+			
+	&&
+
+			
+	A single vertical bar | (*)
+
+					
+				
+Correct		Correct
+
+					
+		44. 	Which of the following is the correct way to throw cumstom ServerException?	 Mark for Review 
+(1) Points
+					
+			
+	throw new ServerException() (*)
+
+			
+	throws ServerException
+
+			
+	throw ServerException
+
+			
+	raise ServerException
+
+					
+				
+Incorrect		Incorrect. Refer to Section 3 Lesson 6.
+
+					
+
+					
+	Section 4
+	(Answer all questions in this section)
+					
+		45. 	The import keyword allows you to access classes of the package without package Fully Qualified Name. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True (*)
+
+			
+	False
+
+					
+				
+Correct		Correct
+
+46. 	Which of the following is an attribute of a two tier architecture application?	 Mark for Review 
+(1) Points
+					
+			
+	An application of that has a client and server only. (*)
+
+			
+	A complex application that includes a client, a server and database.
+
+			
+	An application of that runs on a single computer.
+
+			
+	None of the above.
+
+					
+				
+Correct		Correct
+
+					
+		47. 	A jar file is built on the ZIP file format and is used to deploy java applets. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True (*)
+
+			
+	False
+
+					
+				
+Correct		Correct
+
+					
+		48. 	Which of the following files are not required to be uploaded to a web server to deploy a JWS java application/applet?	 Mark for Review 
+(1) Points
+					
+			
+	jar files
+
+			
+	JNLP files
+
+			
+	html files
+
+			
+	.java files (*)
+
+			
+	None of the above
+
+					
+				
+Correct		Correct
+
+					
+		49. 	To deploy java applications you may use Java Web Start. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True (*)
+
+			
+	False
+
+					
+				
+Correct		Correct
+
+					
+		50. 	If a class is in a package, the system's CLASSPATH must be altered to access the class. 
+True or false?	 Mark for Review 
+(1) Points
+					
+			
+	True
+
+			
+	False (*)
+
+					
+				
+Correct		Correct
